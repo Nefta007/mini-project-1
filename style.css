@@ -1,0 +1,116 @@
+/* this is a universal selector*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* what follows is the selectors for elements */
+body{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif/*sans-serif, inherit, 'Times New Roman'*/;
+    font-size: 20px;
+    background-color: #FDF8F5;
+    color: #4f4846;
+}
+
+h1,h2{
+    margin: 20px;
+}
+
+main{
+    padding:60px 0;
+}
+
+li{
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #FDF8F5;
+}
+
+header, footer{
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #266150;
+}
+
+header{
+    position: fixed;
+    border-bottom: 10px solid #DDAF94;
+}
+
+footer{
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4f4746;
+    color: #fdf8f5;
+}
+
+figure{
+    margin-bottom: 40px;
+}
+
+/* what follows will change the size of the new image */
+img{
+    display: block;
+    margin: 20px auto;
+    /* max-width: 100%;
+    height: auto; */
+    width: 450;
+    height: 450px;
+}
+
+section{
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color: #e8cebf;
+}
+
+/* what follows is what centers the form to the center of the page */
+
+form{
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #DDAF94;
+    border-radius: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+input,textarea{
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #4f4846;
+}
+
+textarea{
+    vertical-align: top;
+    height: 60px;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    background-color: #4f4846;
+    color: #fdf8f5;
+}
+
+/* what follows is the selectors for the classes */
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
